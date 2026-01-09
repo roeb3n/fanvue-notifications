@@ -1,7 +1,8 @@
 {
-  "name": "fanvue-notifications-root",
+  "name": "fanvue-notifications",
   "private": true,
   "scripts": {
+    "postinstall": "npm --prefix backend install",
     "start": "npm --prefix backend start"
   }
 }
