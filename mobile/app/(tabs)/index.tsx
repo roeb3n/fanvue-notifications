@@ -17,7 +17,7 @@ export default function HomeScreen() {
   const [error, setError] = useState<string | null>(null);
 
   // 🔴 Put your NGROK URL here (must be https)
-  const BACKEND_BASE_URL = "https://birgit-vitiated-slumberously.ngrok-free.dev";
+  const BACKEND_BASE_URL = "https://fanvue-notifications.railway.internal/";
 
   useEffect(() => {
     (async () => {
